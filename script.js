@@ -11,3 +11,14 @@ if (directionChoice1AfterFwd === "run away") {
 if (directionChoice1AfterFwd === "hide") {
     alert("You chose to hide behind a tree. Boy, was that ever stupid. You didn't realize that wolves have a superior sense of sight and smell, and could easily find you. They saw you as a threat, and ripped your stomach out before leaving you on the ground to bleed to death. Rest in peace. THE END.")
 }
+//that's [go forward] done
+if (directionChoice1 === "go right") {
+    var directionChoice1AfterRight = prompt("You spent a few minutes looking around before finally deciding to move to your right. You knew you were going to have to move quickly before nightfall. You'd need tools. You'd need weapons, and you'd need shelter. After walking for maybe thirty minutes, you came to a halt. You realized that you needed some wood for weapons, tools, and shelter. You had to find a way to cut some wood. Do you [punch the wood], attempt to [pull on a tree], or [grab a rock] and smash the tree?")
+}
+if (directionChoice1AfterRight === "punch the wood") {
+    alert("This isn't Minecraft. You scream eternally with a bloody and broken fist.")
+}
+if (directionChoice1AfterRight === "pull on a tree") {
+    var directionChoice1AfterPullTree = prompt("You started to bear hug the smallest tree you could find. Surprisingly, you were able to rip it out by it's roots. But then you realized that you needed something to chop the wood, and you would need more than the twigs you could rip off the top of the tree. Do you [karate chop] the wood, or do you [jump] on it until it snaps?")
+}
+if (d
