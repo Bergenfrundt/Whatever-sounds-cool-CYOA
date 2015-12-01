@@ -39,4 +39,5 @@ if (directionChoice1AfterRock === "sword") {
 //that's [go right] done.
 if (directionChoice1 === "go left") {
     alert("You died. RIP. GAME OVER.")
-    var directionChoice1AfterLeft = prompt("You thought. LOL. Back on track. You turned to your left and looked into the distance. 
+    var directionChoice1AfterLeft = prompt("You thought. LOL. Back on track. You turned to your left and looked into the distance. Nevermind, you didn't as there were too many trees in the way. But you started walking forward in hopes of not dying. ")
+}
