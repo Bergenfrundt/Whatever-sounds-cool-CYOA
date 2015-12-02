@@ -3,7 +3,7 @@ if (userChoice1 === true) {
     var directionChoice1 = prompt("You woke up alone. Nothing but the vast forest that seemed to extend for miles. Man. You sure screwed up this time. What did you do? Did you [go forward], [go left], or [go right]?"); //The correct direction will be "go left"
 }
 if (directionChoice1 === "go forward") {
-    var directionChoice1AfterFwd = prompt("You began to walk forward. You were walking for what felt like hours, but was really only fifteen minutes.Your legs felt like they were on fire. The pain was almost too much to continue walking. You sat down to gather your thoughts and relax for a bit, and you ended up falling asleep. You wake up, and it was too dark to see outside. You'd realized your mistake by now, and you knew you had to act fast. In the distance, you heard the howling of wolves. You knew that when they howled, it meant they found food. Did you [run away], or [hide]?");
+    var directionChoice1AfterFwd = prompt("You began to walk forward. You were walking for what felt like hours, but was really only fifteen minutes. Your legs felt like they were on fire. The pain was almost too much to continue walking. You sat down to gather your thoughts and relax for a bit, and you ended up falling asleep. You wake up, and it was too dark to see outside. You'd realized your mistake by now, and you knew you had to act fast. In the distance, you heard the howling of wolves. You knew that when they howled, it meant they found food. Did you [run away], or [hide]?");
 }
 if (directionChoice1AfterFwd === "run away") {
     alert("You ran. You ran, and ran, and ran, and ran, and ran, and ran, and ran, and ran, and ran, and ran, and ran, and ran, but to no avail. Wolves sure as hell are fast. They caught up to you, because you looked to them like easy prey. They tore you apart with ease. Rest in peace. GAME OVER.");
@@ -38,6 +38,18 @@ if (directionChoice1AfterRock === "sword") {
 }
 //that's [go right] done.
 if (directionChoice1 === "go left") {
-    alert("You died. RIP. GAME OVER.")
-    var directionChoice1AfterLeft = prompt("You thought. LOL. Back on track. You turned to your left and looked into the distance. Nevermind, you didn't as there were too many trees in the way. But you started walking forward in hopes of not dying. ")
+    alert("You died. RIP. GAME OVER.");
+    var directionChoice1AfterLeft = prompt("You thought. LOL. Back on track. You turned to your left and looked into the distance. Never mind, you couldn't look into the distance. There were too many trees in the way. You chose to walk forward in the hopes of not dying. For all you knew, there were wolves around every corner. But, luckily enough, there weren't any wolves around. All you found were the odd rabbit and many, many insects. Along your walk, you found a stone that seemed to be sharp enough to cut down a tree. Did you try to [cut] down a tree, or did you keep [walk]ing?");
+}
+if (directionChoice1AfterLeft === "cut") {
+    alert("You walked over to a rather thin tree and started to chip away near the bottom. Of course, it took a while, but you eventually were able to have the tree fall over. It fell forward, directly in front of you. You then had to chop the fallen tree into smaller logs, which you knew would take hours. By the time you were finished, you could hear wolves howling. Wait... I think we've seen this before... THE END");
+}
+if (directionChoice1AfterLeft === "walk") {
+  var directionChoice2AfterLeft = prompt("You continued walking after picking up the sharp rock. The sharp rock really tempts you to chop down some trees. Do you [cut] or do you keep [walk]ing?")
+}
+if (directionChoice2AfterLeft === "cut") {
+  alert("You walked over to a rather thin tree and started to chip away near the bottom. Of course, it took a while, but you eventually were able to have the tree fall over. It fell forward, directly in front of you. You then had to chop the fallen tree into smaller logs, which you knew would take hours. By the time you were finished, you could hear wolves howling. Wait... I think we've seen this before... THE END");
+}
+if (directionChoice2AfterLeft === "walk") {
+  var directionChoice3AfteLeft = prompt("lmao this is here only for now")
 }
